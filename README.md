@@ -69,7 +69,7 @@ Hold a bound key for a configurable duration (default 2s) to force-kill AC + Mac
 - Clicks land on the exact pixel, Enter replays as the main Enter key, and Windows, Menu, Print Screen and media keys replay correctly
 - Settings are saved safely, and deleting a profile asks for a second click
 
-Release notes for every version are on the [Releases](https://github.com/tapatchUSA/Autrix/releases) page.
+Release notes for every version are on the [Releases](https://github.com/tapatchUSA/Autrix/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
