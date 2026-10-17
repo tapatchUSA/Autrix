@@ -2,7 +2,7 @@
 <h1 align="center">Autrix</h1>
 <p align="center"><b>Tested faster than every auto-clicker we benchmarked.</b></p>
 <p align="center">Auto-Clicker & Macro · Windows 10/11 · x64 · ~4 MB · Free for personal use</p>
-<p align="center"><a href="https://github.com/tapatchUSA/Autrix/releases/latest"><b>⬇ Download Autrix 1.0.6</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/autrix/">tapatch.com/tools/autrix</a></p>
+<p align="center"><a href="https://github.com/tapatchUSA/Autrix/releases/latest"><b>⬇ Download Autrix 1.0.7</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/autrix/">tapatch.com/tools/autrix</a></p>
 
 <p align="center">
 <img src="screenshots/autrix-v1.0.6-autoclicker.png" alt="Autrix — Auto Clicker running, with live clicks per second"><br>
@@ -57,23 +57,16 @@ Hold a bound key for a configurable duration (default 2s) to force-kill AC + Mac
 
 - Some applications with anti-cheat software or elevated security may block simulated inputs. Autrix cannot bypass these restrictions.
 
-## What's new in 1.0.6
+## What's new in 1.0.7
 
-- Cleaner new look: icon sidebar, sharper text and calmer colors
-- Start and stop are instant at every click interval. Before, a long interval (like 10 seconds) made the hotkey wait for the next click before it stopped
-- Shows your clicks per second the moment you start, and for intervals of a second or more a "next click in" countdown with a progress bar
-- Macros copy camera turns in games exactly. In games that hold the cursor still, like Roblox when you hold right-click and drag, Autrix now records your mouse's own movement and plays it back the same way
-- The Start / Stop buttons respond to your click right away
-- Holding the hotkey a little too long no longer switches the clicker straight back off
-- Recording no longer captures every mouse press and release twice, and older recordings with doubles play back correctly
-- Clicks land on the exact pixel, Enter replays as the main Enter key, and Windows, Menu, Print Screen and media keys replay correctly
-- Settings are saved safely, and deleting a profile asks for a second click
+- Now runs on any Windows 10 or 11 PC, even a fresh install: it no longer needs the Microsoft Visual C++ Redistributable (no more "VCRUNTIME140.dll was not found")
+- Nothing else changed
 
 Release notes for every version are on the [Releases](https://github.com/tapatchUSA/Autrix/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
-1. Download **Autrix-Setup-1.0.6.exe** from the [latest release](https://github.com/tapatchUSA/Autrix/releases/latest) or from [tapatch.com](https://tapatch.com/tools/autrix/).
+1. Download **Autrix-Setup-1.0.7.exe** from the [latest release](https://github.com/tapatchUSA/Autrix/releases/latest) or from [tapatch.com](https://tapatch.com/tools/autrix/).
 2. Run it. The installer and the app come in 10 languages.
 3. Accept the Terms of Service on first launch.
 
@@ -90,6 +83,7 @@ scoop install tapatch/autrix
 
 | Version | Released | Installer | VirusTotal | SHA-256 |
 |---|---|---|---|---|
+| [1.0.7](https://github.com/tapatchUSA/Autrix/releases/tag/v1.0.7) | 2026-10-17 | [Autrix-Setup-1.0.7.exe](https://github.com/tapatchUSA/Autrix/releases/download/v1.0.7/Autrix-Setup-1.0.7.exe) | [1 / 71](https://www.virustotal.com/gui/file/3314068c41625f76339e83860acfcd7b1da2e7ae49d5f65a6b15706729fb40f8/detection) | `3314068c41625f76…` |
 | [1.0.6](https://github.com/tapatchUSA/Autrix/releases/tag/v1.0.6) | 2026-10-02 | [Autrix-Setup-1.0.6.exe](https://github.com/tapatchUSA/Autrix/releases/download/v1.0.6/Autrix-Setup-1.0.6.exe) | [1 / 69](https://www.virustotal.com/gui/file/39c46005a46741c4efcc6ceeb289c381702fd98e999bc73b9f8d2fb819389721/detection) | `39c46005a46741c4…` |
 | [1.0.5](https://github.com/tapatchUSA/Autrix/releases/tag/v1.0.5) | 2026-10-01 | [Autrix-Setup-1.0.5.exe](https://github.com/tapatchUSA/Autrix/releases/download/v1.0.5/Autrix-Setup-1.0.5.exe) | [1 / 71](https://www.virustotal.com/gui/file/9b801adc398a3c1e0ae818b1bf771b11325616d9216f048d63f2a582ab5c37fe/detection) | `9b801adc398a3c1e…` |
 | [1.0.4](https://github.com/tapatchUSA/Autrix/releases/tag/v1.0.4) | 2026-09-30 | [Autrix-Setup-1.0.4.exe](https://github.com/tapatchUSA/Autrix/releases/download/v1.0.4/Autrix-Setup-1.0.4.exe) | [1 / 71](https://www.virustotal.com/gui/file/1c9e6ea7ed3520c95ebb164586c9fc1081c0b35afd0332b26bd18491702af105/detection) | `1c9e6ea7ed3520c9…` |
@@ -100,11 +94,11 @@ scoop install tapatch/autrix
 
 ## Security
 
-Every installer is scanned on VirusTotal before release. Autrix 1.0.6: **1 / 69** engines flag it · [view report](https://www.virustotal.com/gui/file/39c46005a46741c4efcc6ceeb289c381702fd98e999bc73b9f8d2fb819389721/detection)
+Every installer is scanned on VirusTotal before release. Autrix 1.0.7: **1 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/3314068c41625f76339e83860acfcd7b1da2e7ae49d5f65a6b15706729fb40f8/detection)
 
 **SHA-256**
 ```
-39c46005a46741c4efcc6ceeb289c381702fd98e999bc73b9f8d2fb819389721
+3314068c41625f76339e83860acfcd7b1da2e7ae49d5f65a6b15706729fb40f8
 ```
 
 ## Built with
