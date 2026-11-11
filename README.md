@@ -2,7 +2,7 @@
 <h1 align="center">Autrix</h1>
 <p align="center"><b>Tested faster than every auto-clicker we benchmarked.</b></p>
 <p align="center">Auto-Clicker & Macro · Windows 10/11 · x64 · ~4 MB · Free for personal use</p>
-<p align="center"><a href="https://github.com/tapatchUSA/Autrix/releases/latest"><b>⬇ Download Autrix 1.0.8</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/autrix/">tapatch.com/tools/autrix</a></p>
+<p align="center"><a href="https://github.com/tapatchUSA/Autrix/releases/latest"><b>⬇ Download Autrix 1.0.9</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/autrix/">tapatch.com/tools/autrix</a></p>
 
 <p align="center">
 <img src="screenshots/autrix-v1.0.6-autoclicker.png" alt="Autrix — Auto Clicker running, with live clicks per second"><br>
@@ -57,19 +57,16 @@ Hold a bound key for a configurable duration (default 2s) to force-kill AC + Mac
 
 - Some applications with anti-cheat software or elevated security may block simulated inputs. Autrix cannot bypass these restrictions.
 
-## What's new in 1.0.8
+## What's new in 1.0.9
 
-- Background pictures and GIFs: add as many as you like in Settings, tick the ones to show (or Select all), and the ticked ones take turns
-- Sliders set how strong the picture is and how see-through the panels are; turn it off any time
-- Clicks, drags and holds recorded or picked on a monitor left of or above the main one now replay in the right place, not at the cursor (the fixed-position auto clicker too)
-- Typing in a text box no longer rewrites the whole settings file on every key
-- The installer's license text matches the current Terms, and THIRD-PARTY-NOTICES.txt lists the open-source parts it uses
+- Now opens in virtual machines, Remote Desktop and on PCs without a graphics driver: it switches to Direct3D 12 when OpenGL doesn't work
+- If the window still can't open, a message says why instead of the app closing without a word
 
 Release notes for every version are on the [Releases](https://github.com/tapatchUSA/Autrix/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
-1. Download **Autrix-Setup-1.0.8.exe** from the [latest release](https://github.com/tapatchUSA/Autrix/releases/latest) or from [tapatch.com](https://tapatch.com/tools/autrix/).
+1. Download **Autrix-Setup-1.0.9.exe** from the [latest release](https://github.com/tapatchUSA/Autrix/releases/latest) or from [tapatch.com](https://tapatch.com/tools/autrix/).
 2. Run it. The installer and the app come in 10 languages.
 3. Accept the Terms of Service on first launch.
 
@@ -86,6 +83,7 @@ scoop install tapatch/autrix
 
 | Version | Released | Installer | VirusTotal | SHA-256 |
 |---|---|---|---|---|
+| [1.0.9](https://github.com/tapatchUSA/Autrix/releases/tag/v1.0.9) | 2026-11-11 | [Autrix-Setup-1.0.9.exe](https://github.com/tapatchUSA/Autrix/releases/download/v1.0.9/Autrix-Setup-1.0.9.exe) | [1 / 71](https://www.virustotal.com/gui/file/547300db9e8f5a2d7e6248a871f92002f5f8baa0440f14abf24b4aa48c562a2f/detection) | `547300db9e8f5a2d…` |
 | [1.0.8](https://github.com/tapatchUSA/Autrix/releases/tag/v1.0.8) | 2026-11-05 | [Autrix-Setup-1.0.8.exe](https://github.com/tapatchUSA/Autrix/releases/download/v1.0.8/Autrix-Setup-1.0.8.exe) | [1 / 71](https://www.virustotal.com/gui/file/6904c86c56ed45c58e8a1749e416361536f12ff6413f1f4e5493ec687f793272/detection) | `6904c86c56ed45c5…` |
 | [1.0.7](https://github.com/tapatchUSA/Autrix/releases/tag/v1.0.7) | 2026-10-17 | [Autrix-Setup-1.0.7.exe](https://github.com/tapatchUSA/Autrix/releases/download/v1.0.7/Autrix-Setup-1.0.7.exe) | [0 / 71](https://www.virustotal.com/gui/file/3314068c41625f76339e83860acfcd7b1da2e7ae49d5f65a6b15706729fb40f8/detection) | `3314068c41625f76…` |
 | [1.0.6](https://github.com/tapatchUSA/Autrix/releases/tag/v1.0.6) | 2026-10-02 | [Autrix-Setup-1.0.6.exe](https://github.com/tapatchUSA/Autrix/releases/download/v1.0.6/Autrix-Setup-1.0.6.exe) | [0 / 69](https://www.virustotal.com/gui/file/39c46005a46741c4efcc6ceeb289c381702fd98e999bc73b9f8d2fb819389721/detection) | `39c46005a46741c4…` |
@@ -98,11 +96,11 @@ scoop install tapatch/autrix
 
 ## Security
 
-Every installer is scanned on VirusTotal before release. Autrix 1.0.8: **1 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/6904c86c56ed45c58e8a1749e416361536f12ff6413f1f4e5493ec687f793272/detection)
+Every installer is scanned on VirusTotal before release. Autrix 1.0.9: **1 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/547300db9e8f5a2d7e6248a871f92002f5f8baa0440f14abf24b4aa48c562a2f/detection)
 
 **SHA-256**
 ```
-6904c86c56ed45c58e8a1749e416361536f12ff6413f1f4e5493ec687f793272
+547300db9e8f5a2d7e6248a871f92002f5f8baa0440f14abf24b4aa48c562a2f
 ```
 
 ## Built with
