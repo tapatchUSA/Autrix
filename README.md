@@ -16,6 +16,8 @@
 
 Autrix is a clean, capable automation tool for Windows. Record mouse clicks, key presses, delays, text input, mouse moves, and timed hold actions — then replay them on a hotkey from any window. The recorder now captures input exactly: button and key holds, click-and-drags, and keys held down across other actions are all reproduced with millisecond timing — set it up right and it can run a full game parkour sequence on its own. Save multiple profiles, edit actions inline, tune recording precision per-session, customize the always-on-top status popup, and push click rates past 1000 CPS.
 
+[![Watch on YouTube](https://img.youtube.com/vi/R6ZOXHayl3A/hqdefault.jpg)](https://www.youtube.com/watch?v=R6ZOXHayl3A)
+
 ## Features
 
 A full automation suite. Way more than what's listed here.
