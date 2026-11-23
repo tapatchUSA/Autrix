@@ -2,7 +2,7 @@
 <h1 align="center">Autrix</h1>
 <p align="center"><b>Tested faster than every auto-clicker we benchmarked.</b></p>
 <p align="center">Auto-Clicker & Macro · Windows 10/11 · x64 · ~4 MB · Free for personal use</p>
-<p align="center"><a href="https://github.com/tapatchUSA/Autrix/releases/latest"><b>⬇ Download Autrix 1.0.11</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/autrix/">tapatch.com/tools/autrix</a></p>
+<p align="center"><a href="https://github.com/tapatchUSA/Autrix/releases/latest"><b>⬇ Download Autrix 1.1.1</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/autrix/">tapatch.com/tools/autrix</a></p>
 
 <p align="center">
 <img src="screenshots/autrix-v1.0.6-autoclicker.png" alt="Autrix — Auto Clicker running, with live clicks per second"><br>
@@ -59,15 +59,16 @@ Hold a bound key for a configurable duration (default 2s) to force-kill AC + Mac
 
 - Some applications with anti-cheat software or elevated security may block simulated inputs. Autrix cannot bypass these restrictions.
 
-## What's new in 1.0.11
+## What's new in 1.1.1
 
-- New Start minimized setting: Autrix opens minimized and your hotkeys work right away. With the system tray on, it opens in the tray
+- Version 1.1.1. Autrix can click over 1000 times a second, but its version number was still counting 1.0.9, 1.0.10, 1.0.11. We taught it to count
+- Nothing else changed: same clicks, same speed, and the Start minimized setting from 1.0.11 is still there
 
 Release notes for every version are on the [Releases](https://github.com/tapatchUSA/Autrix/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
-1. Download **Autrix-Setup-1.0.11.exe** from the [latest release](https://github.com/tapatchUSA/Autrix/releases/latest) or from [tapatch.com](https://tapatch.com/tools/autrix/).
+1. Download **Autrix-Setup-1.1.1.exe** from the [latest release](https://github.com/tapatchUSA/Autrix/releases/latest) or from [tapatch.com](https://tapatch.com/tools/autrix/).
 2. Run it. The installer and the app come in 10 languages.
 3. Accept the Terms of Service on first launch.
 
@@ -84,6 +85,7 @@ scoop install tapatch/autrix
 
 | Version | Released | Installer | VirusTotal | SHA-256 |
 |---|---|---|---|---|
+| [1.1.1](https://github.com/tapatchUSA/Autrix/releases/tag/v1.1.1) | 2026-11-22 | [Autrix-Setup-1.1.1.exe](https://github.com/tapatchUSA/Autrix/releases/download/v1.1.1/Autrix-Setup-1.1.1.exe) | [1 / 71](https://www.virustotal.com/gui/file/8057b2223b13e11009fe639b8e8bac55a0908e230e41a2b5a51b212060b2cb7d/detection) | `8057b2223b13e110…` |
 | [1.0.11](https://github.com/tapatchUSA/Autrix/releases/tag/v1.0.11) | 2026-11-22 | [Autrix-Setup-1.0.11.exe](https://github.com/tapatchUSA/Autrix/releases/download/v1.0.11/Autrix-Setup-1.0.11.exe) | [1 / 71](https://www.virustotal.com/gui/file/f054f5aa508dca61d2d03030ba9cd0e19f111734f5e3f1cc3b5f313c97232f49/detection) | `f054f5aa508dca61…` |
 | [1.0.10](https://github.com/tapatchUSA/Autrix/releases/tag/v1.0.10) | 2026-11-21 | [Autrix-Setup-1.0.10.exe](https://github.com/tapatchUSA/Autrix/releases/download/v1.0.10/Autrix-Setup-1.0.10.exe) | [1 / 71](https://www.virustotal.com/gui/file/258eb8dde978f483b280f32882d822b38544c42be31729dc0460e3f3405a875a/detection) | `258eb8dde978f483…` |
 | [1.0.9](https://github.com/tapatchUSA/Autrix/releases/tag/v1.0.9) | 2026-11-11 | [Autrix-Setup-1.0.9.exe](https://github.com/tapatchUSA/Autrix/releases/download/v1.0.9/Autrix-Setup-1.0.9.exe) | [1 / 71](https://www.virustotal.com/gui/file/547300db9e8f5a2d7e6248a871f92002f5f8baa0440f14abf24b4aa48c562a2f/detection) | `547300db9e8f5a2d…` |
@@ -99,11 +101,11 @@ scoop install tapatch/autrix
 
 ## Security
 
-Every installer is scanned on VirusTotal before release. Autrix 1.0.11: **1 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/f054f5aa508dca61d2d03030ba9cd0e19f111734f5e3f1cc3b5f313c97232f49/detection)
+Every installer is scanned on VirusTotal before release. Autrix 1.1.1: **1 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/8057b2223b13e11009fe639b8e8bac55a0908e230e41a2b5a51b212060b2cb7d/detection)
 
 **SHA-256**
 ```
-f054f5aa508dca61d2d03030ba9cd0e19f111734f5e3f1cc3b5f313c97232f49
+8057b2223b13e11009fe639b8e8bac55a0908e230e41a2b5a51b212060b2cb7d
 ```
 
 ## Built with
